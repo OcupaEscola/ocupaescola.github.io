@@ -28,74 +28,74 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         {
             name: '#OcupaEuclydes',
             desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
+            src:  'OcupaEuclydes',
             home: 'http://bit.ly/1q7pA7r'
         },
         {
             name: '#OcupaNery',
             desc: 'Avenida Santa Cruz, 2 - Humberto Antunes, Mendes | C.E. Doutor João Nery',
-            src:  '#OcupaNery',
+            src:  'OcupaNery',
             home: 'http://bit.ly/1q7pZ9X'
         },
         {
             name: '#OcupaMatias',
-            desc: ' Rua Conde de Araruama, 439 - Centro, Macaé | C.E Matias Neto',
-            src:  '#OcupaMatias',
+            desc: 'Rua Conde de Araruama, 439 - Centro, Macaé | C.E Matias Neto',
+            src:  'OcupaMatias',
             home: 'http://bit.ly/1UJhlvm'
         },
         {
             name: '#OcupaBacaxá',
             desc: ' Rua Capitão Nunes - Bacaxá, Saquarema | Escola Técnica Estadual Helber Vignoli Muniz',
-            src:  '#OcupaBacaxá',
-            home: 'http://bit.ly/1q7pA7r'
+            src:  '#OcupaBacaxa',
+            home: 'http://bit.ly/1SBk1Fn'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
+            name: '#OcupaClovis',
+            desc: 'Avenida dos Democráticos, 271 - Manguinhos | C.E Professor Clovis Monteiro',
+            src:  'OcupaClovis',
+            home: 'http://bit.ly/1Vac7sn'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
+            name: '#OcupaIrineu',
+            desc: ' Rua Doutor Otávio Ascoli, próximo 694 - Vila Centenário, Duque de Caxias | C.E Irineu Marinho',
+            src:  '#OcupaIrineu',
+            home: 'http://bit.ly/1XhZVUh'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
+            name: '#OcupaStuart',
+            desc: 'Rua Raul Azevedo, 378 - Senador Camará, Rio de Janeiro | C.E. Stuart Edgar Angel Jone',
+            src:  'OcupaStuart',
+            home: 'http://bit.ly/1RGQtJQ'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
+            name: '#OcupaIEPIC',
+            desc: ' Travessa Manoel Continentino, 32 - São Domingos, Niterói | Instituto de Educação Professor Ismael Coutinho',
+            src:  'OcupaIEPIC',
+            home: 'http://bit.ly/1S5FWu2'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
+            name: '#OcupaGuanabara',
+            desc: ' Avenida Lucas Evangelista de Oliveira Franco - Aterrado, Volta Redonda | C.E. Guanabara',
+            src:  'OcupaGuanabara',
+            home: 'http://bit.ly/1oRbzd2'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
+            name: '#OcupaParanhos',
+            desc: ' Rodovia Amaral Peixoto, 1959, km 97 - Centro, Iguaba Grande | C.E. Francisco de Paula Paranhos',
+            src:  'OcupaParanhos',
+            home: 'http://bit.ly/1RJtLkh'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
+            name: '#OcupaAnysio',
+            desc: ' Rua Amaral, 26 - Andaraí, Rio de Janeiro | C.E. Chico Anysio',
+            src:  'OcupaAnysio',
+            home: 'http://bit.ly/23tawzE'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
+            name: '#OcupaCompositor',
+            desc: ' Avenida Dom Hélder Câmara, 1184 - Benfica, Rio de Janeiro | C.E. Compositor Luiz Carlos da Vila',
+            src:  'OcupaCompositor',
+            home: 'http://bit.ly/1Q1crSk'
         },
         {
             name: '#OcupaEuclydes',
