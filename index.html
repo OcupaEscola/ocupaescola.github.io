@@ -105,7 +105,7 @@
                     <div class="list-group">
                         <div ng-repeat="escola in escolas| filter:searchText | orderBy: 'name'" href="{{escola.src}}" class="list-group-item">
                             <p class="pull-right">
-                                <a href="{{escola.home}}" title="Home / Demo page" ng-if="escola.home"><i class="fa fa-3x fa-home"></i></a>
+                                <a href="{{escola.home}}" title="Nome" ng-if="escola.home"><i class="fa fa-3x fa-home"></i></a>
                                 <a href="https://twitter.com/search?q=%23{{escola.src}}" target="_blank" title="twitter"><i class="fa fa-3x fa-twitter"></i></a>
                                 <a href="https://www.facebook.com/hashtag/{{escola.src}}" target="_blank" title="facebook"><i class="fa fa-3x fa-facebook"></i></a>
                                 <a href="https://www.youtube.com/results?search_query={{escola.src}}" target="_blank" title="facebook"><i class="fa fa-3x fa-youtube"></i></a>
@@ -113,12 +113,27 @@
                             <h4 class="list-group-item-heading">{{escola.name}}</h4>
                             <p class="list-group-item-text text-muted">{{escola.desc}}</p>
                         </div>
+                        <div ng-repeat="escola in escolas| filter:searchText | orderBy: 'name'" href="{{escola.src}}" class="list-group-item">
+	                        <section class="tiles">
+                            <article class="style5">
+                              <span class="image">
+                                <img src="images/pic10.jpg" alt="" />
+                              </span>
+                              <a href="{{escola.home}}" ng-if="escola.home">
+                                <h2>{{escola.name}}</h2>
+                                <div class="content">
+                                  <p>{{escola.desc}}</p>
+                                </div>
+                              </a>
+                            </article>
+                          </section>
+                        </div>
                     </div>
 
                 </section>
 
 
-                
+
             </div>
         </div>
 
