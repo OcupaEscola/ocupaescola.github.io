@@ -112,6 +112,10 @@
                       <h2>{{escola.name}}</h2>
                       <div class="content">
                         <p>{{escola.desc}}</p>
+                        <a href="{{escola.home}}" title="Nome" ng-if="escola.home"><i class="fa fa-3x fa-home"></i></a>
+                        <a href="https://twitter.com/search?q=%23{{escola.src}}" target="_blank" title="twitter"><i class="fa fa-3x fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/hashtag/{{escola.src}}" target="_blank" title="facebook"><i class="fa fa-3x fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/results?search_query={{escola.src}}" target="_blank" title="facebook"><i class="fa fa-3x fa-youtube"></i></a>
                       </div>
                     </a>
                   </article>
