@@ -98,142 +98,106 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
             home: 'http://bit.ly/1Q1crSk'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
+            name: '#OcupaBalthazar',
+            desc: ' Rua Guarani, 209 - Piabeta, Magé | C.E. Professor Alfredo Balthazar',
+            src:  'OcupaBalthazar',
+            home: 'http://ow.ly/10zNjp'
+        },
+        {
+            name: '#OcupaBangu',
+            desc: ' Estrada do Engenho, 442 - Bangu, Rio de Janeiro | C.E. Bangu',
+            src:  'OcupaBangu',
+            home: '#'
+        },
+        {
+            name: '#OcupaFreitas',
+            desc: ' Rua Nélio Chambareli - São Miguel, Queimados | CIEP 335 Joaquim de Freitas, Maricá | C.E. Euclydes Paulo da Silva',
+            src:  'OcupaFreitas',
+            home: 'http://ow.ly/10zMjY'
+        },
+        {
+            name: '#OcupaBragança',
+            desc: ' Rua Marquês Paraná - Vila Canaã, Araruama | CIEP Brizolão 460 Thiophyla Bragança',
+            src:  'OcupaBragança',
+            home: '#'
+        },
+        {
+            name: '#OcupaHispano',
+            desc: ' Rua Venceslau - Méier | C.E. Hispano Brasileiro João Cabral de Melo Neto',
+            src:  'OcupaHispano',
+            home: '#'
+        },
+        {
+            name: '#OcupaJBM',
+            desc: ' Avenida Alberto Lamego, 712 - Parque Califórnia, Campos dos Goytacazes | E.T.E. João Barcelos Martins',
+            src:  'OcupaJBM',
+            home: 'http://ow.ly/10zNU3'
+        },
+        {
+            name: '#OcupaHerbert',
+            desc: ' Rua Barão de Itapagipe, 311 - Rio Comprido, Rio de Janeiro | C.E. Herbert Rebeca de Souza',
+            src:  'OcupaHerbert',
+            home: 'http://bit.ly/1SK3IWA'
+        },
+        {
+            name: '#OcupaJK',
+            desc: ' Rua Jornalista Antônio de Freitas, 75 - Jardim América, Rio de Janeiro | E.T.E. Juscelino Kubitschek de Oliveira',
+            src:  'OcupaJK',
+            home: 'http://ow.ly/10zN3B'
+        },
+        {
+            name: '#OcupaGiovanetti',
+            desc: ' Avenida O, 177 - Açude II, Volta Redonda | CIEP 403 Prof° Maria de Lourdes Giovanetti',
+            src:  'OcupaGiovanetti',
+            home: '#'
+        },
+        {
+            name: '#OcupaNilo',
+            desc: ' Rua Coronel Serrado, 1750 - Praça Zé Garoto, São Gonçalo | C.E. Nilo Peçanha',
+            src:  'OcupaNilo',
+            home: 'http://ow.ly/10zMKc'
+        },
+        {
+            name: '#OcupaChicoZé',
+            desc: ' Rua Simão Luiz da Costa - Ponta Negra, Maricá | C.E. Francisco José do Nascimento',
+            src:  'OcupaChicoZe',
+            home: 'http://bit.ly/23ATVtK'
+        },
+        {
+            name: '#OcupaCapistrano',
+            desc: ' Rua Professora Maria Mendonça Peixoto - Santa Barbara, Niterói | C.E. David Capistrano',
+            src:  'OcupaCapistrano',
+            home: '#'
+        },
+        {
+            name: '#OcupaEdmundo',
+            desc: 'Rua Bernardo Vasconcelos, 425 - Centro, Araruama | C.E. Edmundo Silva',
+            src:  'OcupaEdmundo',
+            home: '#'
+        },
+        {
+            name: '#OcupaCejopa',
+            desc: 'Rua Cora de Alvarenga - Parque Leopoldina, Campos dos Goytacazes | C.E. José do Patrocínio',
+            src:  'OcupaCejopa',
+            home: '#'
+        },
+        {
+            name: '#OcupaSalim',
+            desc: 'Rua da Chita, 419 - Bangu, Rio de Janeiro | C.E. João Salim Miguel',
+            src:  'OcupaSalim',
+            home: '#'
+        },
+        {
+            name: '#OcupaTonhão',
+            desc: 'Rua Maranhão, 530, Lins de Vasconcelos, Rio De Janeiro - RJ - 20720-230 | C.E Antônio Houaiss',
+            src:  'OcupaTonhao',
             home: 'http://bit.ly/1q7pA7r'
         },
         {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
-        },
-        {
-            name: '#OcupaEuclydes',
-            desc: 'Rodovia Amaral Peixoto, Lote 1 - São José de Imbassaí, Maricá | C.E. Euclydes Paulo da Silva',
-            src:  '#OcupaEuclydes',
-            home: 'http://bit.ly/1q7pA7r'
+            name: '#OcupaCepar',
+            desc: 'Estrada Caetano Monteiro, 814 - Pendotiba Niterói | C.E Paulo Assis Ribeiro',
+            src:  'OcupaCepar',
+            home: '#'
         }
         
     ];

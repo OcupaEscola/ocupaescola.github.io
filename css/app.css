@@ -53,3 +53,8 @@ body {
     font-weight: 600;
     color: #fff;
 }
+
+p.description {
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
