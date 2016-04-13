@@ -58,3 +58,8 @@ p.description {
     font-family: 'Open Sans';
     font-size: 15px;
 }
+
+.fa{
+    color: #000;
+    border-color: #fff;
+}
