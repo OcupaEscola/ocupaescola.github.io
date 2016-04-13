@@ -48,10 +48,10 @@ body {
     font-family: 'open Sans';
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:active, {
-    font-weight: 600;
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
+    background-color: transparent;
+    font-weight: 600;
 }
 
 p.description {
