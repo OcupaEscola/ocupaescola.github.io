@@ -4,25 +4,25 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         {
             name: '#OcupaMendes',
             desc: 'Rua Pio Dutra, 353 - Freguesia, Ilha do Governador | C.E. Prefeito Mendes de Morae',
-            src:  '#OcupaMendes',
+            src:  'OcupaMendes',
             home: 'http://bit.ly/1Vaa1IX'
         },
         {
             name: '#OcupaGomes',
             desc: 'Rua São Maurício, 87 - Penha, Rio de Janeiro | C.E. Gomes Freire de Andra',
-            src:  '#OcupaGomes',
+            src:  'OcupaGomes',
             home: 'http://bit.ly/1UJduOW'
         },
         {
             name: '#OcupaHL',
             desc: 'Rua Cuba, 320 - Penha, Rio de Janeiro | C.E. Heitor Lira',
-            src:  '#OcupaHL',
+            src:  'OcupaHL',
             home: 'http://bit.ly/1UJduOW'
         },
         {
             name: '#OcupaCairu',
             desc: 'Rua Soares, 95 - Méier, Rio de Janeiro | C.E. Visconde de Cairú',
-            src:  '#OcupaCairu',
+            src:  'OcupaCairu',
             home: 'http://bit.ly/1UJduOW'
         },
         {
