@@ -10,7 +10,7 @@
     		<link rel="stylesheet" href="assets/css/main.css" />
     		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        
+
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
@@ -101,6 +101,26 @@
                 </div>
             </header>
 
+            <div id="main">
+  						<div class="inner">
+                <section class="tiles" ng-repeat="escola in escolas| filter:searchText | orderBy: 'name'" href="{{escola.src}}">
+                  <article class="style5">
+                    <span class="image">
+                      <img src="images/pic10.jpg" alt="" />
+                    </span>
+                    <a href="{{escola.home}}" ng-if="escola.home">
+                      <h2>{{escola.name}}</h2>
+                      <div class="content">
+                        <p>{{escola.desc}}</p>
+                      </div>
+                    </a>
+                  </article>
+                </section>
+
+
+              </div>
+            </div>
+
             <div class="container" >
                 <section id="escolas">
                     <h1 class="page-header">Escolas Ocupadas</h1>
@@ -118,21 +138,6 @@
                             </p>
                             <h4 class="list-group-item-heading">{{escola.name}}</h4>
                             <p class="list-group-item-text text-muted">{{escola.desc}}</p>
-                        </div>
-                        <div ng-repeat="escola in escolas| filter:searchText | orderBy: 'name'" href="{{escola.src}}">
-	                        <section class="tiles">
-                            <article class="style5">
-                              <span class="image">
-                                <img src="images/pic10.jpg" alt="" />
-                              </span>
-                              <a href="{{escola.home}}" ng-if="escola.home">
-                                <h2>{{escola.name}}</h2>
-                                <div class="content">
-                                  <p>{{escola.desc}}</p>
-                                </div>
-                              </a>
-                            </article>
-                          </section>
                         </div>
                     </div>
 
