@@ -103,8 +103,8 @@
 
             <div id="main">
   						<div class="inner">
-                <section class="tiles" ng-repeat="escola in escolas| filter:searchText | orderBy: 'name'" href="{{escola.src}}">
-                  <article class="style5">
+                <section class="tiles">
+                  <article class="style5" ng-repeat="escola in escolas| filter:searchText | orderBy: 'name'" href="{{escola.src}}">
                     <span class="image">
                       <img src="images/pic10.jpg" alt="" />
                     </span>
