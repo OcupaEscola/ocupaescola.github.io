@@ -1,5 +1,5 @@
 
-var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
+var app = angular.module('OcupaEscola', ['ngRoute']).controller('MainCtrl',  function($scope) {
     $scope.escolas = [
         {
             name: '#OcupaMendes',
@@ -202,4 +202,27 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         
     ];
 
-});
+})
+    .controller('ApiController', function($scope, $http) {
+        $http.get("https://sheetsu.com/apis/v1.0/fd52ca91")
+        .success(function(response) {$scope.schools = response;});
+})
+    .config(['$routeProvider',
+      function($routeProvider) {
+        $routeProvider.
+          when('/mapa', {
+            templateUrl: 'partials/mapa.html',
+            controller: 'MapCtrl'
+          }).
+          when('/escola/:nome', {
+            templateUrl: 'partials/escolaOcupada.html',
+            controller: 'EscolaCtrl'
+          }).
+          when('/apoie', {
+            templateUrl: 'https://docs.google.com/forms/d/1q9-lHsT1XrkBShbgy-28m9fU2x7F1NnIn5l9D08GVg8/viewform?c=0&w=1'
+          }).
+          otherwise({
+            redirectTo: '/'
+          });
+}]);
+    
