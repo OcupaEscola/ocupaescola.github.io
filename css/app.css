@@ -79,3 +79,7 @@ p.description {
     margin-top: 80px;
     color: #fff;
 }
+
+nav#menu{
+    opacity: 0;
+}
