@@ -5,7 +5,7 @@ body {
 }
 .logo {
     height: 150px;
-    background: url('../logo/logo.pn') no-repeat;
+    background: url('../logo-big.png') no-repeat;
     background-size: contain;
     background-position-x: 100%;
     margin-top: 10px;
@@ -73,7 +73,7 @@ p.description {
   background-position:center center;
   background-attachment:fixed;
   height: 430px;
-  
+
   -webkit-filter: grayscale(1);
    filter: grayscale(1);
 }
