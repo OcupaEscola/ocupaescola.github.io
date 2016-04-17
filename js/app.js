@@ -1,5 +1,5 @@
 
-var app = angular.module('OcupaEscola', ['ngRoute']).controller('MainCtrl',  function($scope) {
+var app = angular.module('OcupaEscola', ['ngRoute']).controller('MainCtrl',  function($scope, $http) {
     $scope.escolas = [
         {
             name: '#OcupaMendes',
@@ -199,7 +199,7 @@ var app = angular.module('OcupaEscola', ['ngRoute']).controller('MainCtrl',  fun
             src:  'OcupaCepar',
             home: '#'
         }
-        
+
     ];
 
 })
@@ -225,4 +225,3 @@ var app = angular.module('OcupaEscola', ['ngRoute']).controller('MainCtrl',  fun
             redirectTo: '/'
           });
 }]);
-    
