@@ -68,11 +68,12 @@ p.description {
 
 
 #overview{
-  background:url(https://pbs.twimg.com/media/Cfjhfi9W8AEpuqo.jpg:large);
+  background:url('../images/background.jpg') no-repeat;
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
   height: 430px;
+  opacity: 0.8;
 }
 
 .jumbotron .container{
