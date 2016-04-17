@@ -4,12 +4,12 @@ body {
 
 }
 .logo {
-    height: 150px;
+    height: 400px;
     background: url('../images/logo-big.png') no-repeat;
     background-size: contain;
     background-position-x: 100%;
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: 50px;
 }
 .bs-docs-social {
     text-align: center;
@@ -85,4 +85,10 @@ p.description {
 
 nav#menu{
     opacity: 0;
+}
+
+
+.navbar-brand > img {
+    display: block;
+    height: 32px;
 }
