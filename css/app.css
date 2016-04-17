@@ -73,7 +73,9 @@ p.description {
   background-position:center center;
   background-attachment:fixed;
   height: 430px;
-  opacity: 0.8;
+  
+  -webkit-filter: grayscale(1);
+   filter: grayscale(1);
 }
 
 .jumbotron .container{
