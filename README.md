@@ -1,5 +1,5 @@
 # OcupaEscola - Rio de Janeiro
-[OcupaEscola.com](http://www.ocupaescola.github.io)
+[OcupaEscola.com](http://ocupaescola.github.io)
 
 OcupaEScolaRJ  estudantes lutando pelo bem público!
 
