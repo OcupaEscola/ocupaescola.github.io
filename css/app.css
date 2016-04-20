@@ -4,10 +4,9 @@ body {
 
 }
 .logo {
-    height: 200px;
+    height: 300px;
     background: url('../images/logo-big.png') no-repeat;
     background-size: contain;
-    background-position-x: 100%;
     margin-top: 10px;
 
 }
@@ -42,12 +41,6 @@ body {
 }
 .navbar .navbar-inner a{
     color: #fff;
-}
-
-.navbar-brand > img {
-    display: inline-block;
-    height: 52px;
-    margin-top: -16px;
 }
 
 
@@ -96,7 +89,8 @@ nav#menu{
 
 .navbar-brand > img {
     display: block;
-    height: 32px;
+    height: 52px;
+    margin-top: -16px;
 }
 
 p.text-muted {
