@@ -7,10 +7,10 @@ OcupaEScolaRJ  estudantes lutando pelo bem público!
 
 ### Como funciona?
 
-Consumindo uma API com iformações de escolas ocupadas, exibo um conteudo 
+Consumindo uma API com iformações de escolas ocupadas, exibo um conteudo
 centralizado e focado em cada escola.
 
-### Pré Requisitos 
+### Pré Requisitos
 
 * Você precisa ter o [Git](http://git-scm.com/) instalado
 * Ou usar uma maquina virtual [Cloud9](http://c9.io)
@@ -18,13 +18,13 @@ centralizado e focado em cada escola.
 ### Quero Contribuir
 
 1. Crie uma Issue.
-2. Fork o projeto. 
+2. Fork o projeto.
 3. Cria uma nova branch de demanda: `git checkout -b my-new-feature`
 4. Commite suas mudanças: `git commit -m 'Add some feature'`
 5. (PUSH)Publique sua branch: `git push origin my-new-feature`
 6. Envie um pull request :D
 
-### Quero contribuir com informações 
+### Quero contribuir com informações
 Nós envie um email ocupaescolainc@gmail.com
 
 ### junte-se a essa causa.
@@ -38,6 +38,9 @@ No [google sheets](https://docs.google.com/spreadsheets/d/1dT7fiUVwU6_N4VIdDAO7m
 |:---------------------:|:-------------------:|:-------------------:|
 |  [Frederick Silva](https://github.com/fredericksilva/)   |     [Ila Ruana](https://twitter.com/ilaruana)    |    [Felipe Lins](https://www.facebook.com/felipemlins?fref=ts)
 
+## Google Analytics
+<img src="https://ga-beacon.appspot.com/UA-76451200-2/OcupaEscola.github.io/README?pixel" />
+[![Analytics](https://ga-beacon.appspot.com/UA-76451200-2/OcupaEscola.github.io/README)](https://github.com/igrigorik/ga-beacon
 
 ## License
 [![CC0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
