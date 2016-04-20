@@ -74,7 +74,7 @@ p.description {
 
 
 #overview{
-  background:url('../images/background.jpg') no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../images/background.jpg') no-repeat;
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
