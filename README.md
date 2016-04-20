@@ -40,7 +40,8 @@ No [google sheets](https://docs.google.com/spreadsheets/d/1dT7fiUVwU6_N4VIdDAO7m
 
 ## Google Analytics
 <img src="https://ga-beacon.appspot.com/UA-76451200-2/OcupaEscola.github.io/README?pixel" />
-[![Analytics](https://ga-beacon.appspot.com/UA-76451200-2/OcupaEscola.github.io/README)](https://github.com/igrigorik/ga-beacon
+
+[![Analytics](https://ga-beacon.appspot.com/UA-76451200-2/OcupaEscola.github.io/README)](https://github.com/igrigorik/ga-beacon)
 
 ## License
 [![CC0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
