@@ -100,3 +100,11 @@ p.text-muted {
 #escolas p {
   margin: 0 5px 0 5px;
 }
+
+#footer {
+    text-align:  center;
+}
+
+ul.icons a:hover {
+    text-decoration: none;
+}
