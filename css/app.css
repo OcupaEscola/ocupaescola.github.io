@@ -43,6 +43,11 @@ body {
     color: #fff;
 }
 
+.navbar-brand > img {
+    display: inline-block;
+    height: 52px;
+    margin-top: -16px;
+}
 
 
 .navbar-default .navbar-nav > li > a{
